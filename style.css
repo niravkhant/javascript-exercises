@@ -1,0 +1,59 @@
+#form {
+    max-width: 800px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+
+.section-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-19%);
+    right: 20px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-circle-check {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-circle-exclamation {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error input {
+    border: 1px solid #e74c3c;
+    outline: none;
+}
+
+.form-control.success input {
+    border: 1px solid #2ecc71;
+    outline: none;
+}
+
+.form-control small {
+    color: #e74c3c;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+    font-size: 14px;
+}
